@@ -6,7 +6,7 @@ h1 { font-size: 24px; margin: 8px 0 4px; }
 .card { background: #f2f4f6; border-radius: 16px; padding: 22px 20px; margin-bottom: 18px; }
 .field { display: inline-block; font-size: 14px; color: #3182f6; background: #e8f3ff; border-radius: 8px; padding: 3px 8px; margin-bottom: 10px; }
 .q { font-size: 22px; line-height: 1.45; font-weight: 700; margin: 0; word-break: keep-all; }
-.choices { display: flex; flex-direction: column; gap: 10px; }
+.choices { display: flex; flex-direction: column; gap: 14px; }
 .choice { font-size: 19px; text-align: left; padding: 16px 18px; border: 1.5px solid #e5e8eb; border-radius: 14px; background: #fff; color: #191f28; }
 .choice.right { border-color: #3182f6; background: #e8f3ff; font-weight: 700; }
 .choice.wrong { border-color: #f04452; background: #ffeeee; }
