@@ -28,7 +28,9 @@ jobs:
         run: npm run build
       - name: 콘솔에 올리기
         if: ${{ env.AIT_API_KEY != '' }}
-        run: npx ait deploy --api-key "$AIT_API_KEY" -m "${MEMO:0:900}"
+        run: |
+          FIRST_LINE="$(printf '%s' "$MEMO" | head -n 1)"
+          npx ait deploy --api-key "$AIT_API_KEY" -m "${FIRST_LINE:0:100}"
 
   preview:
     name: 미리보기 올리기
