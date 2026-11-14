@@ -1,0 +1,18 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #fff; color: #191f28; font-family: -apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif; }
+.wrap { max-width: 480px; margin: 0 auto; padding: 24px 20px calc(24px + env(safe-area-inset-bottom)); }
+h1 { font-size: 24px; margin: 8px 0 4px; }
+.date { color: #8b95a1; font-size: 17px; margin: 0 0 20px; }
+.card { background: #f2f4f6; border-radius: 16px; padding: 22px 20px; margin-bottom: 18px; }
+.field { display: inline-block; font-size: 14px; color: #3182f6; background: #e8f3ff; border-radius: 8px; padding: 3px 8px; margin-bottom: 10px; }
+.q { font-size: 22px; line-height: 1.45; font-weight: 700; margin: 0; word-break: keep-all; }
+.choices { display: flex; flex-direction: column; gap: 10px; }
+.choice { font-size: 19px; text-align: left; padding: 16px 18px; border: 1.5px solid #e5e8eb; border-radius: 14px; background: #fff; color: #191f28; }
+.choice.right { border-color: #3182f6; background: #e8f3ff; font-weight: 700; }
+.choice.wrong { border-color: #f04452; background: #ffeeee; }
+.choice.dim { color: #b0b8c1; }
+.result { margin-top: 18px; padding: 16px 18px; border-radius: 14px; background: #f9fafb; }
+.verdict { font-size: 20px; font-weight: 700; margin: 0 0 8px; }
+.why { font-size: 17px; line-height: 1.5; margin: 0 0 10px; word-break: keep-all; }
+.tomorrow { font-size: 15px; color: #8b95a1; margin: 0; }
+footer { margin-top: 24px; text-align: center; color: #4e5968; font-size: 16px; }
